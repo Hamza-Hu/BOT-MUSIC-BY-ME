@@ -61,8 +61,8 @@ try {
     .setColor('#3498db')
     .setAuthor({
       name: 'Song Skipped',
-      iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157269773118357604/giphy.gif?ex=6517fef6&is=6516ad76&hm=f106480f7d017a07f75d543cf545bbea01e9cf53ebd42020bd3b90a14004398e&',
-      url: 'https://discord.gg/FUEHs7RCqz'
+      iconURL: 'https://cdn.discordapp.com/attachments/1218730959197966447/1218953025737982012/standard.gif?ex=66098978&is=65f71478&hm=71f544a060803d8580aa74a215ab14aa4d45ad7e2b8da2963748894950e1eddd&',
+      url: 'https://discord.gg/gAqyGWeDym'
     })
     .setDescription(success ? ` **SKIPPED** : **${old.name}**` : '❌ Queue is empty!')
     .setTimestamp();
