@@ -1,5 +1,5 @@
 module.exports = {
-  TOKEN: "MTIxODk0NjMwMDE0NjYxNDMyMg.GhmABO.Y5fjk5aX78kFbBvpKd6du4LFZILu8NRMOCizDc",
+  TOKEN: "",
   ownerID: ["1155151049355702314", ""],
   botInvite: "https://discord.com/oauth2/authorize?client_id=1218946300146614322&permissions=8&scope=bot",
   supportServer: "https://discord.gg/gAqyGWeDym",
@@ -8,7 +8,7 @@ module.exports = {
   commandsDir: './commands',
   language: "en",
   embedColor: "00fbff",
-  errorLog: "",
+  errorLog: "1218948101981868105",
 
 
   sponsor: {
