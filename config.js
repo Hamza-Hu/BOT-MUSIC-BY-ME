@@ -1,10 +1,10 @@
 module.exports = {
-  TOKEN: "",
-  ownerID: ["1004206704994566164", ""],
-  botInvite: "",
-  supportServer: "",
+  TOKEN: "MTIxODk0NjMwMDE0NjYxNDMyMg.GhmABO.Y5fjk5aX78kFbBvpKd6du4LFZILu8NRMOCizDc",
+  ownerID: ["1155151049355702314", ""],
+  botInvite: "https://discord.com/oauth2/authorize?client_id=1218946300146614322&permissions=8&scope=bot",
+  supportServer: "https://discord.gg/gAqyGWeDym",
   mongodbURL: "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
-  status: 'RTXX GG',
+  status: 'MrakBot',
   commandsDir: './commands',
   language: "en",
   embedColor: "00fbff",
@@ -12,7 +12,7 @@ module.exports = {
 
 
   sponsor: {
-    status: true,
+    status: false,
     url: "https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A",
   },
 
