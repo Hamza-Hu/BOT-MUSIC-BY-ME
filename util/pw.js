@@ -1,6 +1,6 @@
 const status = "AUTOMATIC";
-const botName = "🎸 Music Bot ";
-const rtxText = "RTX";
+const botName = "MrakBot Music";
+const rtxText = "MRAKCHI";
 const version = "Latest@ v3.5"; 
 const startTime = Date.now();
 
