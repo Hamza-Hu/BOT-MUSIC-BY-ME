@@ -32,7 +32,7 @@ module.exports = {
             .setAuthor({
           name: 'Owner',
           iconURL: 'https://cdn.discordapp.com/attachments/1218730959197966447/1218953025737982012/standard.gif?ex=66098978&is=65f71478&hm=71f544a060803d8580aa74a215ab14aa4d45ad7e2b8da2963748894950e1eddd&',
-          url: 'https://discord.gg/gAqyGWeDym'
+          url: 'https://discord.gg/6kvJChM28m'
         })
             .setDescription(`__**About me**__:\n\n ▶️ MRAKCHI. I am a discord bot developer. I love playing games. my Team : TEAM LHAJ. Feel free to contact me!\n YouTube : ❤️ [MRAKCHI](${youtubeLink})\n Discord : 💙 [ASTA COMMUNITY](${InstagramLink})`)
             .setTimestamp();
