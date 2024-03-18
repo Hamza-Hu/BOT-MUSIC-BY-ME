@@ -2,13 +2,13 @@ module.exports = {
   TOKEN: "",
   ownerID: ["1155151049355702314", ""],
   botInvite: "https://discord.com/oauth2/authorize?client_id=1218946300146614322&permissions=8&scope=bot",
-  supportServer: "https://discord.gg/gAqyGWeDym",
+  supportServer: "https://discord.gg/6kvJChM28m",
   mongodbURL: "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
   status: 'MrakBot',
   commandsDir: './commands',
   language: "en",
   embedColor: "00fbff",
-  errorLog: "1218948101981868105",
+  errorLog: "1219371388553527376",
 
 
   sponsor: {
