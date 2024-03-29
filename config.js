@@ -1,7 +1,7 @@
 module.exports = {
   TOKEN: "",
   ownerID: ["1155151049355702314", ""],
-  botInvite: "https://discord.com/oauth2/authorize?client_id=1218946300146614322&permissions=8&scope=bot",
+  botInvite: "https://discord.com/oauth2/authorize?client_id=1218946300146614322",
   supportServer: "https://discord.gg/6kvJChM28m",
   mongodbURL: "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
   status: 'MrakBot',
