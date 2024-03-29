@@ -43,7 +43,7 @@ module.exports = {
           { name: '⏮️ Previous', value: 'Play the previous song in the queue' },
           { name: '🔀 Shuffle', value: 'Shuffle the songs in queue' }
         )
-        .setImage(`https://cdn.discordapp.com/attachments/1218730959197966447/1218953025737982012/standard.gif?ex=66098978&is=65f71478&hm=71f544a060803d8580aa74a215ab14aa4d45ad7e2b8da2963748894950e1eddd&`); 
+        .setImage(`https://cdn.discordapp.com/attachments/1219371335592050759/1223409877649719306/standard.gif?ex=6619c03c&is=66074b3c&hm=5965dd3a2d24d315a40363920c84869386adc7942df5ef5cf92456a185687912&`); 
 
       const basicCommandsEmbed = new EmbedBuilder()
         .setColor(client.config.embedColor)
@@ -56,7 +56,7 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1218730959197966447/1218953025737982012/standard.gif?ex=66098978&is=65f71478&hm=71f544a060803d8580aa74a215ab14aa4d45ad7e2b8da2963748894950e1eddd&')
+       .setImage('https://cdn.discordapp.com/attachments/1219371335592050759/1223409877649719306/standard.gif?ex=6619c03c&is=66074b3c&hm=5965dd3a2d24d315a40363920c84869386adc7942df5ef5cf92456a185687912&')
       const button1 = new ButtonBuilder()
         .setLabel('YouTube')
         .setURL('https://youtube.com/@mrakchi26?si=XmXo98E28ibZt9m1')
