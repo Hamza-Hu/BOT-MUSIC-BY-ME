@@ -6,7 +6,7 @@ module.exports = {
   permissions: "0x0000000000000800",
   options: [
     {
-      name: "sami",
+      name: "normal",
       description: "Open music from other platforms.",
       type: ApplicationCommandOptionType.Subcommand,
       options: [
@@ -118,7 +118,7 @@ module.exports = {
         }
       }
 
-      if (stp === "normal") {
+      if (stp === "sami") {
   const name = interaction.options.getString('name');
   if (!name) {
     return interaction.reply({ content: '▶️ Give Text or link', ephemeral: true }).catch(e => {});
