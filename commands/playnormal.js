@@ -1,12 +1,12 @@
 const { ApplicationCommandOptionType, EmbedBuilder } = require('discord.js');
 const db = require("../mongoDB");
 module.exports = {
-  name: "playsong",
+  name: "sami",
   description: "Play a track.",
   permissions: "0x0000000000000800",
   options: [
     {
-      name: "normal",
+      name: "sami",
       description: "Open music from other platforms.",
       type: ApplicationCommandOptionType.Subcommand,
       options: [
