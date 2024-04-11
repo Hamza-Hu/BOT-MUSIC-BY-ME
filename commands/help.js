@@ -1,18 +1,3 @@
-/*
-
-  ██████╗░████████╗██╗░░██╗           
-  ██╔══██╗╚══██╔══╝╚██╗██╔╝          
-  ██████╔╝░░░██║░░░░╚███╔╝░          
-  ██╔══██╗░░░██║░░░░██╔██╗░          
-  ██║░░██║░░░██║░░░██╔╝╚██╗          
-  ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
-
-   
-   # MADE BY RTX!! FEEL FREE TO USE ANY PART OF CODE
-   ## FOR HELP CONTACT ME ON DISCORD
-   ## Contact    [ DISCORD SERVER :  https://discord.gg/FUEHs7RCqz ]
-   ## YT : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
-*/
 const { ApplicationCommandOptionType } = require('discord.js');
 const db = require("../mongoDB");
 
@@ -43,7 +28,7 @@ module.exports = {
           { name: '⏮️ Previous', value: 'Play the previous song in the queue' },
           { name: '🔀 Shuffle', value: 'Shuffle the songs in queue' }
         )
-        .setImage(`https://cdn.discordapp.com/attachments/1219371335592050759/1223409877649719306/standard.gif?ex=6619c03c&is=66074b3c&hm=5965dd3a2d24d315a40363920c84869386adc7942df5ef5cf92456a185687912&`); 
+        .setImage('https://cdn.discordapp.com/attachments/1219371335592050759/1223409877649719306/standard.gif?ex=6619c03c&is=66074b3c&hm=5965dd3a2d24d315a40363920c84869386adc7942df5ef5cf92456a185687912&'); 
 
       const basicCommandsEmbed = new EmbedBuilder()
         .setColor(client.config.embedColor)
@@ -58,18 +43,18 @@ module.exports = {
         ) 
        .setImage('https://cdn.discordapp.com/attachments/1219371335592050759/1223409877649719306/standard.gif?ex=6619c03c&is=66074b3c&hm=5965dd3a2d24d315a40363920c84869386adc7942df5ef5cf92456a185687912&')
       const button1 = new ButtonBuilder()
-        .setLabel('YouTube')
-        .setURL('https://youtube.com/@mrakchi26?si=XmXo98E28ibZt9m1')
+        .setLabel('ADD BOT')
+        .setURL('https://discord.com/oauth2/authorize?client_id=1218946300146614322')
         .setStyle(ButtonStyle.Link);
 
       const button2 = new ButtonBuilder()
-        .setLabel('SUPPORT')
-        .setURL('https://discord.gg/6kvJChM28m')
+        .setLabel('YOUTUBE')
+        .setURL('https://youtube.com/@mrakchi26?si=XmXo98E28ibZt9m1')
         .setStyle(ButtonStyle.Link);
 
       const button3 = new ButtonBuilder()
-        .setLabel('ASTA COMMUNITY')
-        .setURL('https://discord.gg/DbfQnUgUHb')
+        .setLabel('SUPPORT')
+        .setURL('https://discord.gg/6kvJChM28m')
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
@@ -84,19 +69,3 @@ module.exports = {
     }
   },
 };
-
-/*
-
-  ██████╗░████████╗██╗░░██╗           
-  ██╔══██╗╚══██╔══╝╚██╗██╔╝          
-  ██████╔╝░░░██║░░░░╚███╔╝░          
-  ██╔══██╗░░░██║░░░░██╔██╗░          
-  ██║░░██║░░░██║░░░██╔╝╚██╗          
-  ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
-
-   
-   # MADE BY RTX!! FEEL FREE TO USE ANY PART OF CODE
-   ## FOR HELP CONTACT ME ON DISCORD
-   ## Contact    [ DISCORD SERVER :  https://discord.gg/FUEHs7RCqz ]
-   ## YT : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
-*/
