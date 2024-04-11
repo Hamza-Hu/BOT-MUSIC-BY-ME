@@ -26,7 +26,7 @@ module.exports = {
         .setAuthor({
           name: 'Song Resumed',
           iconURL: 'https://cdn.discordapp.com/attachments/1218730959197966447/1218953025737982012/standard.gif?ex=66098978&is=65f71478&hm=71f544a060803d8580aa74a215ab14aa4d45ad7e2b8da2963748894950e1eddd&',
-          url: 'https://discord.gg/gAqyGWeDym'
+          url: 'https://discord.gg/6kvJChM28m'
         })
         .setDescription(success ? '**The music springs back to life!!**' : '❌ Error: Unable to resume song')
         
