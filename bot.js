@@ -15,18 +15,6 @@ const client = new Client({
   }),
 });
 
-const statusType = "idle"; // online = الاخضر | dnd = الاحمر | idle = الاصفر | invisible = غير متصل
-  client.user.setPresence({
-    status: statusType,
-    activities: [
-      {
-        name: "MrakBot Music | /help | By MrakTeam", // الاسم
-        type: ActivityType.Streaming, // streaming | playing | listening
-        url: "https://discord.gg/6kvJChM28m", // stream link
-      },
-    ],
-  });
-
 client.config = config;
 client.player = new DisTube(client, {
   leaveOnStop: config.opt.voiceConfig.leaveOnStop,
