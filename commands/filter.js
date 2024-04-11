@@ -55,7 +55,7 @@ module.exports = {
       .setAuthor({
           name: 'Audio Filters ',
           iconURL: 'https://cdn.discordapp.com/attachments/1219371335592050759/1223409877985267782/d562d4205927c8d1ca5eed0adcaaa25d.jpg?ex=6619c03c&is=66074b3c&hm=7c0fdae3e30548efa2b1b594062f202a036f07c1dfacb80bca13023cfac1ff85&',
-          url: 'https://discord.gg/gAqyGWeDym'
+          url: 'https://discord.gg/6kvJChM28m'
         })
       .setDescription('** Explore the Beat, Choose Your Sound Magic Below!**')
   
