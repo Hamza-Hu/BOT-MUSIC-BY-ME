@@ -1,7 +1,7 @@
 const status = "AUTOMATIC";
 const botName = "MrakBot Music";
 const rtxText = "MRAKCHI";
-const version = "Latest@ v3.5"; 
+const version = "MrakBot Music V3.5"; 
 const startTime = Date.now();
 
 function printWatermark() {
